@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Azure_Function_IoT_backend": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7114",
+      "launchBrowser": false
+    }
+  }
+}
