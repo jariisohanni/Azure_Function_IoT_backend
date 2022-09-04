@@ -33,7 +33,7 @@ namespace Saranen.Backend
         }
 
         [FunctionName("TestConnection")]
-        public static async Task<IActionResult> Run(
+        public static async Task<IActionResult> TestConnection(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
